@@ -1,0 +1,84 @@
+<html>
+<form action="sales.php" method="post">
+  <div class="container" style="display:block;">
+      <label><b>Blood group</b></label>
+     <select name="selectedBloodGroup">
+  <option value="AB+">AB+</option>
+  <option value="AB-">AB-</option>
+  <option value="A+">A+</option>
+  <option value="A-">A-</option>
+  <option value="B+">B+</option>
+  <option value="B-">B-</option>
+  <option value="O+">O+</option>
+  <option value="O-">O-</option>
+</select>
+<br><br>
+     <label><b>Quantity</b></label>
+    <input type="text" placeholder="Enter no. of bottles" name="QTY" ></br></br>
+    <label><b>Date of Purchase</b></label>
+    <input type="date" placeholder="Enter Date" name="DATE" >
+    <br><br><label><b>Name of Hospital/Blood bank</b></label>
+    <input type="text" placeholder="Enter Name" name="NAME" ></br></br>
+   
+   
+    
+
+    <input type="submit" name="submit"/>
+
+  </div>
+</form>
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+</style>
+</html>
+

@@ -1,0 +1,83 @@
+<html>
+<form action="view_details.php" method="post">
+  <div class="container" style="display:block;">
+    <label><b> Blood name</b></label>
+    <select name="selectedBloodGroup">
+  <option value="3">AB+</option>
+  <option value="4">AB-</option>
+  <option value="1">A+</option>
+  <option value="2">A-</option>
+  <option value="5">B+</option>
+  <option value="6">B-</option>
+  <option value="7">O+</option>
+  <option value="8">O-</option>
+</select>
+    
+    <!--<label><b>Price per bottle</b></label>
+    <input type="text" placeholder="Enter Address" name="PRICE" >
+  <label><b>Description</b></label>
+    <input type="text" placeholder="Enter Address" name="DES" >
+    <label><b>Quantity</b></label>
+    <input type="text" placeholder="Enter phone no." name="QTY" >
+    <label><b>Expiry date</b></label>
+    <input type="date" placeholder="Enter email id" name="E_DT" >-->
+ 
+    <input type="submit" name="Save"/>
+    <a href="http://localhost:809/BloodBank/">exit</a>
+  </div>
+</form>
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+</style>
+</html>
+

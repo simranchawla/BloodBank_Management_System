@@ -1,0 +1,102 @@
+<html>
+<form action="confirm.php" method="post">
+  <div class="container" style="display:block;">
+    <label><b>name</b></label>
+    <input type="text" placeholder="Enter Name" name="NAME" >
+    
+    <label><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="ADD" >
+        <label><b>Pincode</b></label>
+    <input type="text" placeholder="Enter pincode." name="PIN" >
+    <label><b>Date of birth</b></label>
+    <input type="date" placeholder="Enter Address" name="DOB" >
+    <label><b>Phone</b></label>
+    <input type="text" placeholder="Enter phone no." name="PHONE" >
+    <label><b>Email id</b></label>
+    <input type="text" placeholder="Enter email id" name="EMAIL" >
+    <label><b>Blood group</b></label>
+     <select name="selectedBloodGroup">
+  <option value="AB+">AB+</option>
+  <option value="AB-">AB-</option>
+  <option value="A+">A+</option>
+  <option value="A-">A-</option>
+  <option value="B+">B+</option>
+  <option value="B-">B-</option>
+  <option value="O+">O+</option>
+  <option value="O-">O-</option>
+</select>
+    
+
+    <label><b>Weight</b></label>
+    <input type="text" placeholder="Enter weight no." name="WEIGHT" >
+    <input type="submit" name="submit"/>
+<!--    <label><b>d_dob</b></label>
+    <input type="text" placeholder="Enter Password" name="psw" required>
+
+    <label><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button"  class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div> 
+    -->
+  </div>
+</form>
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+</style>
+</html>
+
